@@ -288,7 +288,7 @@ button {
 .hero__metrics dd {
   margin: 0;
   font-family: "Manrope", sans-serif;
-  font-size: clamp(1.8rem, 1.8vw, 2.8rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.8rem);
   font-weight: 800;
 }
 
