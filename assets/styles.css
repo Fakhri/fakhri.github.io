@@ -92,7 +92,7 @@ button {
 }
 
 .eyebrow--light {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 
 .site-header {
@@ -199,7 +199,7 @@ button {
 }
 
 .hero__copy h1 {
-  font-size: clamp(3.2rem, 7vw, 6.4rem);
+  font-size: clamp(2.2rem, 4vw, 5.4rem);
 }
 
 .hero__copy h1 span {
@@ -213,7 +213,6 @@ button {
 .timeline-item__content p,
 .contact-panel p,
 .project-card__summary {
-  color: var(--text-muted);
   line-height: 1.7;
 }
 
@@ -280,7 +279,7 @@ button {
 .hero__metrics dt {
   margin-top: 0.6rem;
   color: var(--text-muted);
-  font-size: 0.72rem;
+  font-size: 0.42rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -289,7 +288,7 @@ button {
 .hero__metrics dd {
   margin: 0;
   font-family: "Manrope", sans-serif;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-size: clamp(1.8rem, 1.8vw, 2.8rem);
   font-weight: 800;
 }
 
@@ -500,7 +499,7 @@ button {
 }
 
 .project-card {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   min-height: 29rem;
@@ -1022,7 +1021,7 @@ body.menu-open {
   }
 
   .hero__copy h1 {
-    font-size: clamp(2.7rem, 15vw, 4.4rem);
+    font-size: clamp(2.7rem, 5vw, 4.4rem);
   }
 
   .hero__metrics,
